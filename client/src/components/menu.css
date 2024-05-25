@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 li {
-    @apply text-white my-1;
+    @apply text-white my-3;
 }
 
 .titles{

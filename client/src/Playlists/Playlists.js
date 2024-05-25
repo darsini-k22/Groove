@@ -1,11 +1,15 @@
 import './playlists.css'
+import { Link } from "react-router-dom";
 export default function Playlists() {
+    const playlists = [
+        { id: 1, name: 'Playlist1' },
+        { id: 2, name: 'Playlist2' },
+        { id: 3, name: 'Playlist3' },
+        { id: 4, name: 'Playlist4' }
+    ]
     return (
         <ul>
-            <li>Playlist 1</li>
-            <li>Playlist 2</li>
-            <li>Playlist 3</li>
-            <li>Playlist 4</li>
+            {playlists.map(p => <li><Link to={`/playlists/${p.id}`}>{p.name}</Link></li>)}
         </ul>
     )
 }

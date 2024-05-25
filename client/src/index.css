@@ -5,5 +5,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat&family=Poppins&display=swap');
 
 body {
-  @apply font-sans italic;
+  @apply font-sans italic bg-black text-white;
 }

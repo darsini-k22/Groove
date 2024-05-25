@@ -8,7 +8,7 @@ module.exports = {
       fontFamily: {
         sans: ['Amaranth', 'sans-serif'],
       },
-      },
+    },
   },
   plugins: [],
 }
