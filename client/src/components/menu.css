@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+    @apply text-white my-1;
+}
+
+.titles{
+    @apply text-[#A5DD9B] mx-6 my-2 font-bold
+}
